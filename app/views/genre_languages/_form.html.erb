@@ -1,0 +1,16 @@
+<h1> Genre Language Type</h1>
+<%= flash[:notice]%>
+<%= flash[:error]%>
+<div id ="LanguageType">
+  <div>
+
+  </div>
+
+  <%= raise %>
+  <%= simple_form_for(@lang) do |f| %>
+
+    <%= f.text_field :name, label: "Genre Language Type", autofocus: true, placeholder: "Enter genre"%>
+    <%= f.submit %>
+<% end  %>
+
+</div>
